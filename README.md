@@ -5,7 +5,7 @@ photo exif reading lib for actionscript3/flash
 
 
 How to use this lib to get the photo's orientation:
-
+`
 import flash.utils.ByteArray;
 import fox.photo.SimpleExifExtractor;
 import fox.photo.exif.ifd.IFDValue;
@@ -21,3 +21,4 @@ if (tag) // in certain case, it might don't have orientation infomation.
 	orientation=parseInt("" + tag.value);
 }
 trace('orientation is:'+orientation);
+`
